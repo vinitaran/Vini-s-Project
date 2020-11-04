@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Header.css";
+import logoimg from "../images/logo.svg"
 
 function Header() {
     return (      
@@ -7,7 +8,7 @@ function Header() {
         <div className="top-navbar">
           <div className="container">
             <div className="navbar__logo">
-              <img src="./images/logo.svg" alt="Reload the page" />
+              <img src={logoimg} alt="Reload the page" />
             </div>
     
             <ul className="navbar__links">

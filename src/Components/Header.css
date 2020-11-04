@@ -200,7 +200,8 @@
     object-fit: cover;
     border-left: 4px solid #D9C892;
     border-right: 4px solid #D9C892;
-    animation: hero-bg 5s linear forwards;
+    /* animation: hero-bg 5s linear forwards; */
+    /* This where I have changed */
   }
   
   /* #hero.animation .hero-bg {
@@ -250,7 +251,7 @@
     max-width: 1200px;
     width: 100%;
     transform: scale(0.8);
-    animation: hero-container 5s linear forwards;
+    /* animation: hero-container 5s linear forwards; */
   }
   
   /* #hero.animation .container-wrap {
@@ -308,23 +309,7 @@
     height: 45px;
   }
   
-  .card {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 423px;
-    height: 671px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(../images/kashware-kard.png) no-repeat center center/cover;
-  
-    opacity: 0;
-    /* animation: card-2 5s linear both 3.85s; */
-    animation: card-2 5s linear 3.85s, card-fan 0s forwards 8.85s;
-  
-  }
+ 
   
   /* #hero.animation .card {
     animation: card-2 5s linear 3.85s, card-fan 0s forwards 8.85s;
@@ -335,6 +320,7 @@
       height: 100%;
       width: 757px;
       opacity: 0;
+      z-index:1;
     }
   
     20% {
@@ -366,6 +352,7 @@
       width: 423px;
       height: 671px;
       opacity: 1;
+      
     }
   }
   
@@ -374,6 +361,7 @@
       height: 100%;
       width: 757px;
       opacity: 0;
+      z-index:1;
     }
   
     25% {
@@ -399,6 +387,7 @@
       width: 423px;
       height: 671px;
       opacity: 1;
+      z-index:1;
     }
   }
   
@@ -408,6 +397,7 @@
       width: 813px;
       height: 672px;
       opacity: 1;
+      z-index:1;
     }
   }
   

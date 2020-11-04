@@ -40,3 +40,23 @@
     background: transparent url('../images/downArrow.svg') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
+.card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 423px;
+    height: 671px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/kashware-kard.png) no-repeat center center/cover;
+  
+    opacity: 0;
+    z-index: -1;
+    /* animation: card-2 5s linear both 3.85s; */
+    /* animation: card-2 5s linear 3.85s, card-fan 0s forwards 8.85s; */
+    /* This is where I have changed */
+  
+  }
