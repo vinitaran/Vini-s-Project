@@ -10,9 +10,17 @@ function Main() {
     document.querySelector("#hero .container-wrap").style.animation="hero-container 5s linear forwards";
     document.querySelector(".card").style.animation="card-2 5s linear 3.85s, card-fan 0s forwards 8.85s";
     document.querySelector("#hero .hero-bg").style.animation="hero-bg 5s linear forwards";
+    document.querySelector(".card-title").style.animation="cardContent 0s forwards 8.85s";
   }
     return (
         <section id="hero">
+
+          <div className="cards">
+            <li className="card">
+            </li>
+            <h1 className="card-title">One App. One Card.<span className="card-catcher">For all others.</span> </h1>
+          </div>
+
         <img className="hero-bg" src={step1} alt="" />
         <div className="container-wrap">
           <h1 className="hero__title">
@@ -26,11 +34,7 @@ function Main() {
           {/* </a> */}
         </div>
 
-        <div className="cards">
-        <li className="card">
-        </li>
-        <h1>One App. One Card. For all others.</h1>
-        </div>
+        
     
         
     
