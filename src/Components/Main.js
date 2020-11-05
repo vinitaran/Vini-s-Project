@@ -25,9 +25,14 @@ function Main() {
             }}/>
           {/* </a> */}
         </div>
-    
+
+        <div className="cards">
         <li className="card">
         </li>
+        <h1>One App. One Card. For all others.</h1>
+        </div>
+    
+        
     
       </section>
     )
